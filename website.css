@@ -15,7 +15,6 @@ ul{
 list-style-type: none;
 overflow: hidden;
 background-color: black;
-display:flex;
 
 }
 
@@ -70,7 +69,7 @@ img{
 float: right;
 margin-left: 15px;
 width: 100%;
-height: one;
+height: none;
 
 }
 .cappuccino{
@@ -82,7 +81,7 @@ img{
 float: right;
 margin-left: 15px;
 width: 100%;
-height: auto;
+height: none;
 
 }
 .tea{
@@ -94,7 +93,7 @@ img{
 float: right;
 margin-left: 15px;
 width: 100%;
-height:auto;
+height:none;
 
 }
 .cookie{
@@ -116,3 +115,5 @@ font-size: 30px;
 background-color: rgb(190, 62, 15);
 color: white;
 }
+
+As you said in img width is100% height is auto
