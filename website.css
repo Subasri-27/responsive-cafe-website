@@ -106,8 +106,11 @@ color: rgb(117, 85, 15);
     width:100%;
     max-width:300px;
     height:auto;
-    display:block;
+    display:flex;
     margin:auto;
+    gap:20px;
+    flex-wrap:wrap;
+
   }
  
 }
@@ -116,6 +119,7 @@ font-size: 30px;
 background-color: rgb(190, 62, 15);
 color: white;
 }
+
 
 
 
