@@ -56,8 +56,8 @@ color:whitesmoke;
 img{
 float: left;
 margin-left: 15px;
-width:100%;
-height:auto;
+width:230px;
+230px;
 
 }
 .dalgona{
@@ -68,8 +68,8 @@ color: rgb(117, 85, 15);
 img{
 float: right;
 margin-left: 15px;
-width: 100%;
-height: none;
+width:230px;
+height: 230px;
 
 }
 .cappuccino{
@@ -80,8 +80,8 @@ color: rgb(117, 85, 15);
 img{
 float: right;
 margin-left: 15px;
-width: 100%;
-height: none;
+width: 230px
+height: 230px;
 
 }
 .tea{
@@ -92,8 +92,8 @@ color: rgb(117, 85, 15);
 img{
 float: right;
 margin-left: 15px;
-width: 100%;
-height:none;
+width: 230px;
+height:230px;
 
 }
 .cookie{
@@ -103,12 +103,13 @@ color: rgb(117, 85, 15);
 }
 
 .picture{
-gap: 10px;
-display: flex;
-width: 100px;
-height: 100px;
-flex-grow: 1;
-margin: left 10px;
+    width:100%;
+    max-width:300px;
+    height:auto;
+    display:block;
+    margin:auto;
+  }
+ 
 }
 .contact{
 font-size: 30px;
@@ -116,4 +117,5 @@ background-color: rgb(190, 62, 15);
 color: white;
 }
 
-As you said in img width is100% height is auto
+
+
