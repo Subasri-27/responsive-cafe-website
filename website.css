@@ -58,8 +58,8 @@ h2{
 img{
     float: left;
     margin-left: 15px;
-    width:100%;
-    height:auto;
+    width:230px;
+    height:230px;
    
 }
 .dalgona{
@@ -70,8 +70,8 @@ img{
 img{
     float: right;
     margin-left: 15px;
-    width: 100%;
-    height: auto;
+    width: 230px;
+    height: 230px;
     
 }
 .cappuccino{
@@ -82,8 +82,8 @@ img{
 img{
     float: right;
     margin-left: 15px;
-    width: 100%;
-    height: auto;
+    width: 230px;
+    height: 230px;
     
 }
 .tea{
@@ -94,8 +94,8 @@ img{
 img{
     float: right;
     margin-left: 15px;
-    width: 100%;
-    height:auto;
+    width: 230px;
+    height:230px;
     
 }
 .cookie{
@@ -104,28 +104,19 @@ img{
     color: rgb(117, 85, 15);
 }
 
-.picture{
-    display:flex;
-    flex-wrap:wrap;
-    gap:20px;
-    padding:20px;
-    justify-content:center;
-}
-
-.picture div{
-    width:180px;
-}
-
-.picture img{
-    width:100%;
-    height:150px;
-    object-fit:cover;
-    border-radius:10px;
+picture{
+    gap: 10px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-grow: 1;
+    margin: left 10px; 
 }
 .contact{
     font-size: 30px;
     background-color: rgb(190, 62, 15);
     color: white;
 }
+
 
 
