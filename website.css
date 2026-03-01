@@ -55,53 +55,26 @@ h2{
     background-color:rgb(100, 48, 11);
     color:whitesmoke;
 }
-img{
-    float: left;
-    margin-left: 15px;
-    width:230px;
-    height:230px;
-   
-}
-.dalgona{
-    font-size: 40px;
-    background-color:burlywood;
-    color: rgb(117, 85, 15);
-}
-img{
-    float: right;
-    margin-left: 15px;
-    width: 230px;
-    height: 230px;
-    
-}
-.cappuccino{
-    font-size: 40px;
-    background-color:burlywood;
-    color: rgb(117, 85, 15);
-}
-img{
-    float: right;
-    margin-left: 15px;
-    width: 230px;
-    height: 230px;
-    
-}
-.tea{
-    font-size: 40px;
-    background-color:burlywood;
-    color: rgb(117, 85, 15);
-}
-img{
-    float: right;
-    margin-left: 15px;
-    width: 230px;
-    height:230px;
-    
-}
+.dalgona,
+.cappuccino,
+.tea,
 .cookie{
-    font-size: 40px;
-    background-color:burlywood;
-    color: rgb(117, 85, 15);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.dalgona img,
+.cappuccino img,
+.tea img,
+.cookie img{
+    width:250px;
+    max-width:100%;
+    height:auto;
+    border-radius:10px;
 }
 
 picture{
@@ -117,6 +90,7 @@ picture{
     background-color: rgb(190, 62, 15);
     color: white;
 }
+
 
 
 
